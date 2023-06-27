@@ -1,0 +1,121 @@
+.header{
+    text-align: center;
+    background-color: #2962A7;
+    background-image:  url("img/wallpaper2.jpg");
+    height: 303px;
+    color: white;
+  
+  }
+  
+main{
+display: flex;
+flex-direction: row;
+
+}
+.header p{
+color: #D7434F;
+}
+.navbar {
+background-color: #BBACAF ;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 20px; ;
+}
+.navbar a{
+color : white;
+text-decoration: none;
+}
+.navbar a:hover{
+background-color:#DAD4E0  ;
+color: #58699d ;
+}
+.article{
+font-family: Arial, Helvetica, sans-serif;
+width: 70%;
+margin-left: 50px;
+padding-left: 20px;  
+border-left: 3px solid #DAD4E0 ;
+
+}
+.article h2{
+color: #385072  ;
+}
+.article h5{
+color:#CB384B ;
+}
+.article .fakeimg{
+background-color:  #BBACAF ;
+text-align:  center;
+width: 70%;
+
+}
+main .side{
+width: 25%;
+
+}
+
+
+.side h2, h3, a{
+color: #385072;
+text-decoration: none;
+}
+.side h5{
+color: #CB384B;
+   }
+   
+
+.fakeimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.fakeimg img{
+    background-color:  #BBACAF ;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.side .toursnews  {
+     box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    background-color: #BBACAF;
+}
+.side .toursnews img {
+    border-radius: 40px;
+    margin-right: 5px;
+}
+   
+   .side{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+
+   }
+   .footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: #9B847b;
+    text-align: center;
+    background-image:  url("img/footer.jpg");
+    
+}
+.footer h2{
+   color: white;
+}
+.footer h5{
+    color: #CB384B;
+ }
